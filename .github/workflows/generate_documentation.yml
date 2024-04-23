@@ -9,10 +9,10 @@ jobs:
 
     steps: 
     - uses: actions/checkout@v3
-    -name: Build Jekyll Site
-     uses: helaili/jekyll-action@v2.2.2
-     with:
-      profile: github
+    - name: Build Jekyll Site
+      uses: helaili/jekyll-action@v2.2.2
+      with:
+        profile: github
     - name: Deploy to Github Pages
       uses: JamesIves/github-pages-deploy-action@4.1.1
       with:
