@@ -4,7 +4,11 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-      "test": "echo 'running tests...'"
+      "test": "echo 'running tests...'",
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
     },
     "keywords": [],
     "author": "",
@@ -12,4 +16,5 @@
     "dependencies": {
       "express": "^4.17.3"
     }
+    
   }
