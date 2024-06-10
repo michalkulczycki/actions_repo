@@ -1,18 +1,23 @@
 {
-    "name": "actions_test",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-      "start": "react-scripts start",
-      "test": "react-scripts test",
-      "eject": "react-scripts eject"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "express": "^4.17.3"
-    }
-    
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "this is a github actions test repository Welcome !!",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "eject": "react-scripts eject",
+    "build": "echo 'Building the project...' && mkdir -p dist && touch dist/index.js",
+    "test": "echo 'Running tests...' && exit 0"
+  },
+  "keywords": [],
+  "author": "mkulczycki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git_repo"
   }
+}
